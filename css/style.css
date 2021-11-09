@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    padding: 10px;
+    text-align: center;
+    background-color: #232115;
+    font-family: 'Playfair Display', serif;
+}
+
+header h1{
+    color: cornsilk;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("./imgs/manaus-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Playfair Display', serif;
+}
+
+.descricao{
+    margin:20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 1280px;
+    margin: 30px auto;
+  }
+
+span{
+    font-weight: bold;
+}
+
+.curious{
+    margin-top: 20px;
+    color:white;
+    text-shadow: 2px 2px black;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    font-size: 18px;
+    list-style: none;
+    font-weight:700;
+    max-width: 800px;
+    max-height: 320px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ddd7cc;
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.app{
+    height: 30px;
+    width: 30px;
+}
